@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "846627EC424EE7E4C6FEA4BF40B07FA98D38BD49",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "846627EC424EE7E4C6FEA4BF40B07FA98D38BD49" : 9223372036854775807,
+    "9F3E5893E2097DB2139A4E8550B77DCB6896B312" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "ED429093-DE3B-4B7D-A9FD-C3B12F02A92C",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "846627EC424EE7E4C6FEA4BF40B07FA98D38BD49" : "FCI\/",
+    "9F3E5893E2097DB2139A4E8550B77DCB6896B312" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "FCI",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "FCI\/FCI.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/stefandric\/FCI.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "846627EC424EE7E4C6FEA4BF40B07FA98D38BD49"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/stefandric\/AbaLeagueUnofficial.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9F3E5893E2097DB2139A4E8550B77DCB6896B312"
+    }
+  ]
+}

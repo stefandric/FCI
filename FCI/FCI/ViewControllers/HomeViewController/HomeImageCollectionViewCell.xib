@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="HomeImageCollectionViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="70" height="70"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="70" height="70"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="question-mark_318-52837" translatesAutoresizingMaskIntoConstraints="NO" id="eZ5-DF-chG">
+                        <color key="backgroundColor" red="0.90980392160000001" green="0.90980392160000001" blue="0.90980392160000001" alpha="1" colorSpace="deviceRGB"/>
+                    </imageView>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="eZ5-DF-chG" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="3m8-Qn-KDh"/>
+                <constraint firstItem="eZ5-DF-chG" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="V46-8Q-8jO"/>
+                <constraint firstAttribute="trailing" secondItem="eZ5-DF-chG" secondAttribute="trailing" id="cv6-8Z-DxB"/>
+                <constraint firstAttribute="bottom" secondItem="eZ5-DF-chG" secondAttribute="bottom" id="gWI-Yi-Fbo"/>
+            </constraints>
+            <connections>
+                <outlet property="eventImageView" destination="eZ5-DF-chG" id="np5-ak-los"/>
+            </connections>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="question-mark_318-52837" width="313" height="313"/>
+    </resources>
+</document>

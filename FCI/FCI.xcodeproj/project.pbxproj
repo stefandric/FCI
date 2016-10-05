@@ -7,14 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4DCC3ABD4E7AB3A6B396E41F /* libPods-FCI.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 89D510ECBFCF80259DAEE036 /* libPods-FCI.a */; };
+		905E03181DA55A4A00D678C8 /* Communication.m in Sources */ = {isa = PBXBuildFile; fileRef = 905E03171DA55A4A00D678C8 /* Communication.m */; };
+		905E031D1DA55EED00D678C8 /* AnnotationObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 905E031C1DA55EED00D678C8 /* AnnotationObject.m */; };
+		905E03211DA5616100D678C8 /* LogicHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 905E03201DA5616100D678C8 /* LogicHelper.m */; };
+		905E03271DA5670500D678C8 /* CustomGMSMarker.m in Sources */ = {isa = PBXBuildFile; fileRef = 905E03261DA5670500D678C8 /* CustomGMSMarker.m */; };
+		907BEE121DA5BE08006AA8F5 /* DetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 907BEE111DA5BE08006AA8F5 /* DetailsViewController.m */; };
+		9099308B1DA59D3E00D16532 /* HomeImageCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 909930891DA59D3E00D16532 /* HomeImageCollectionViewCell.m */; };
+		9099308C1DA59D3E00D16532 /* HomeImageCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9099308A1DA59D3E00D16532 /* HomeImageCollectionViewCell.xib */; };
+		909930911DA5A41100D16532 /* ImageObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 909930901DA5A41100D16532 /* ImageObject.m */; };
 		90E28AE71DA5561C006C3C19 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 90E28AE61DA5561C006C3C19 /* main.m */; };
 		90E28AEA1DA5561C006C3C19 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 90E28AE91DA5561C006C3C19 /* AppDelegate.m */; };
-		90E28AED1DA5561C006C3C19 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90E28AEC1DA5561C006C3C19 /* ViewController.m */; };
 		90E28AF01DA5561C006C3C19 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90E28AEE1DA5561C006C3C19 /* Main.storyboard */; };
 		90E28AF21DA5561C006C3C19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90E28AF11DA5561C006C3C19 /* Assets.xcassets */; };
 		90E28AF51DA5561C006C3C19 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90E28AF31DA5561C006C3C19 /* LaunchScreen.storyboard */; };
 		90E28B001DA5561C006C3C19 /* FCITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 90E28AFF1DA5561C006C3C19 /* FCITests.m */; };
 		90E28B0B1DA5561C006C3C19 /* FCIUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 90E28B0A1DA5561C006C3C19 /* FCIUITests.m */; };
+		90E28B1C1DA55737006C3C19 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90E28B1B1DA55737006C3C19 /* HomeViewController.m */; };
+		AC678A269A69FA556B493CE0 /* libPods-FCITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D79E1B6A1C6EF37D7DEB678F /* libPods-FCITests.a */; };
+		C2F7BC35F16F8754D279820A /* libPods-FCIUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 09654F2352D8293036A0141F /* libPods-FCIUITests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,12 +46,30 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		09654F2352D8293036A0141F /* libPods-FCIUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FCIUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		20BABC9F67C8D43D649DF389 /* Pods-FCITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FCITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FCITests/Pods-FCITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6F7796E90F935A6FE8D70BA6 /* Pods-FCI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FCI.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FCI/Pods-FCI.debug.xcconfig"; sourceTree = "<group>"; };
+		73618C1B812EBED92354F75C /* Pods-FCIUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FCIUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FCIUITests/Pods-FCIUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		89D510ECBFCF80259DAEE036 /* libPods-FCI.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FCI.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		905E03161DA55A4A00D678C8 /* Communication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Communication.h; sourceTree = "<group>"; };
+		905E03171DA55A4A00D678C8 /* Communication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Communication.m; sourceTree = "<group>"; };
+		905E031B1DA55EED00D678C8 /* AnnotationObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnnotationObject.h; sourceTree = "<group>"; };
+		905E031C1DA55EED00D678C8 /* AnnotationObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnnotationObject.m; sourceTree = "<group>"; };
+		905E031F1DA5616100D678C8 /* LogicHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogicHelper.h; sourceTree = "<group>"; };
+		905E03201DA5616100D678C8 /* LogicHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogicHelper.m; sourceTree = "<group>"; };
+		905E03251DA5670500D678C8 /* CustomGMSMarker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomGMSMarker.h; sourceTree = "<group>"; };
+		905E03261DA5670500D678C8 /* CustomGMSMarker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomGMSMarker.m; sourceTree = "<group>"; };
+		907BEE101DA5BE08006AA8F5 /* DetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailsViewController.h; sourceTree = "<group>"; };
+		907BEE111DA5BE08006AA8F5 /* DetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailsViewController.m; sourceTree = "<group>"; };
+		909930881DA59D3E00D16532 /* HomeImageCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeImageCollectionViewCell.h; sourceTree = "<group>"; };
+		909930891DA59D3E00D16532 /* HomeImageCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeImageCollectionViewCell.m; sourceTree = "<group>"; };
+		9099308A1DA59D3E00D16532 /* HomeImageCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeImageCollectionViewCell.xib; sourceTree = "<group>"; };
+		9099308F1DA5A41100D16532 /* ImageObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageObject.h; sourceTree = "<group>"; };
+		909930901DA5A41100D16532 /* ImageObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageObject.m; sourceTree = "<group>"; };
 		90E28AE21DA5561C006C3C19 /* FCI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FCI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		90E28AE61DA5561C006C3C19 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		90E28AE81DA5561C006C3C19 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		90E28AE91DA5561C006C3C19 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		90E28AEB1DA5561C006C3C19 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		90E28AEC1DA5561C006C3C19 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		90E28AEF1DA5561C006C3C19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		90E28AF11DA5561C006C3C19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		90E28AF41DA5561C006C3C19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +80,12 @@
 		90E28B061DA5561C006C3C19 /* FCIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FCIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		90E28B0A1DA5561C006C3C19 /* FCIUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCIUITests.m; sourceTree = "<group>"; };
 		90E28B0C1DA5561C006C3C19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90E28B1A1DA55737006C3C19 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		90E28B1B1DA55737006C3C19 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		D0F27E4C6F5ED8AF515120D0 /* Pods-FCIUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FCIUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FCIUITests/Pods-FCIUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D79E1B6A1C6EF37D7DEB678F /* libPods-FCITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FCITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E832B6F814C0A0D32382D355 /* Pods-FCI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FCI.release.xcconfig"; path = "Pods/Target Support Files/Pods-FCI/Pods-FCI.release.xcconfig"; sourceTree = "<group>"; };
+		F954E3E616BB582819D2C4D9 /* Pods-FCITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FCITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FCITests/Pods-FCITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +93,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DCC3ABD4E7AB3A6B396E41F /* libPods-FCI.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +101,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC678A269A69FA556B493CE0 /* libPods-FCITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +109,90 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2F7BC35F16F8754D279820A /* libPods-FCIUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		185B7244CBBAECEBF7FF138E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				89D510ECBFCF80259DAEE036 /* libPods-FCI.a */,
+				D79E1B6A1C6EF37D7DEB678F /* libPods-FCITests.a */,
+				09654F2352D8293036A0141F /* libPods-FCIUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		905E03141DA55A3B00D678C8 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				905E031E1DA5615200D678C8 /* Helper */,
+				905E03191DA55ED100D678C8 /* Objects */,
+				905E03151DA55A3B00D678C8 /* Communication */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		905E03151DA55A3B00D678C8 /* Communication */ = {
+			isa = PBXGroup;
+			children = (
+				905E03161DA55A4A00D678C8 /* Communication.h */,
+				905E03171DA55A4A00D678C8 /* Communication.m */,
+			);
+			path = Communication;
+			sourceTree = "<group>";
+		};
+		905E03191DA55ED100D678C8 /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				9099308E1DA5A35100D16532 /* ImageObject */,
+				905E031A1DA55EDD00D678C8 /* AnnotationObject */,
+			);
+			path = Objects;
+			sourceTree = "<group>";
+		};
+		905E031A1DA55EDD00D678C8 /* AnnotationObject */ = {
+			isa = PBXGroup;
+			children = (
+				905E031B1DA55EED00D678C8 /* AnnotationObject.h */,
+				905E031C1DA55EED00D678C8 /* AnnotationObject.m */,
+				905E03251DA5670500D678C8 /* CustomGMSMarker.h */,
+				905E03261DA5670500D678C8 /* CustomGMSMarker.m */,
+			);
+			path = AnnotationObject;
+			sourceTree = "<group>";
+		};
+		905E031E1DA5615200D678C8 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				905E031F1DA5616100D678C8 /* LogicHelper.h */,
+				905E03201DA5616100D678C8 /* LogicHelper.m */,
+			);
+			name = Helper;
+			path = Objects/Helper;
+			sourceTree = "<group>";
+		};
+		907BEE0F1DA5BDF9006AA8F5 /* DetailsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				907BEE101DA5BE08006AA8F5 /* DetailsViewController.h */,
+				907BEE111DA5BE08006AA8F5 /* DetailsViewController.m */,
+			);
+			path = DetailsViewController;
+			sourceTree = "<group>";
+		};
+		9099308E1DA5A35100D16532 /* ImageObject */ = {
+			isa = PBXGroup;
+			children = (
+				9099308F1DA5A41100D16532 /* ImageObject.h */,
+				909930901DA5A41100D16532 /* ImageObject.m */,
+			);
+			path = ImageObject;
+			sourceTree = "<group>";
+		};
 		90E28AD91DA5561B006C3C19 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +200,8 @@
 				90E28AFE1DA5561C006C3C19 /* FCITests */,
 				90E28B091DA5561C006C3C19 /* FCIUITests */,
 				90E28AE31DA5561C006C3C19 /* Products */,
+				DE13B0A46614837AF7646CC2 /* Pods */,
+				185B7244CBBAECEBF7FF138E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +218,10 @@
 		90E28AE41DA5561C006C3C19 /* FCI */ = {
 			isa = PBXGroup;
 			children = (
+				905E03141DA55A3B00D678C8 /* Utilities */,
+				90E28B181DA55719006C3C19 /* ViewControllers */,
 				90E28AE81DA5561C006C3C19 /* AppDelegate.h */,
 				90E28AE91DA5561C006C3C19 /* AppDelegate.m */,
-				90E28AEB1DA5561C006C3C19 /* ViewController.h */,
-				90E28AEC1DA5561C006C3C19 /* ViewController.m */,
 				90E28AEE1DA5561C006C3C19 /* Main.storyboard */,
 				90E28AF11DA5561C006C3C19 /* Assets.xcassets */,
 				90E28AF31DA5561C006C3C19 /* LaunchScreen.storyboard */,
@@ -140,6 +257,40 @@
 			path = FCIUITests;
 			sourceTree = "<group>";
 		};
+		90E28B181DA55719006C3C19 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				907BEE0F1DA5BDF9006AA8F5 /* DetailsViewController */,
+				90E28B191DA55727006C3C19 /* HomeViewController */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		90E28B191DA55727006C3C19 /* HomeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				90E28B1A1DA55737006C3C19 /* HomeViewController.h */,
+				90E28B1B1DA55737006C3C19 /* HomeViewController.m */,
+				909930881DA59D3E00D16532 /* HomeImageCollectionViewCell.h */,
+				909930891DA59D3E00D16532 /* HomeImageCollectionViewCell.m */,
+				9099308A1DA59D3E00D16532 /* HomeImageCollectionViewCell.xib */,
+			);
+			path = HomeViewController;
+			sourceTree = "<group>";
+		};
+		DE13B0A46614837AF7646CC2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6F7796E90F935A6FE8D70BA6 /* Pods-FCI.debug.xcconfig */,
+				E832B6F814C0A0D32382D355 /* Pods-FCI.release.xcconfig */,
+				20BABC9F67C8D43D649DF389 /* Pods-FCITests.debug.xcconfig */,
+				F954E3E616BB582819D2C4D9 /* Pods-FCITests.release.xcconfig */,
+				73618C1B812EBED92354F75C /* Pods-FCIUITests.debug.xcconfig */,
+				D0F27E4C6F5ED8AF515120D0 /* Pods-FCIUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +298,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 90E28B0F1DA5561C006C3C19 /* Build configuration list for PBXNativeTarget "FCI" */;
 			buildPhases = (
+				057B2A880BC762515D5DEB08 /* [CP] Check Pods Manifest.lock */,
 				90E28ADE1DA5561B006C3C19 /* Sources */,
 				90E28ADF1DA5561B006C3C19 /* Frameworks */,
 				90E28AE01DA5561B006C3C19 /* Resources */,
+				DF75327B376C6899A4464D69 /* [CP] Embed Pods Frameworks */,
+				9388065993002A0856C1708C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,9 +318,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 90E28B121DA5561C006C3C19 /* Build configuration list for PBXNativeTarget "FCITests" */;
 			buildPhases = (
+				CB08A5C51754F6481328EF18 /* [CP] Check Pods Manifest.lock */,
 				90E28AF71DA5561C006C3C19 /* Sources */,
 				90E28AF81DA5561C006C3C19 /* Frameworks */,
 				90E28AF91DA5561C006C3C19 /* Resources */,
+				A7AC2E480664B1F1F468C581 /* [CP] Embed Pods Frameworks */,
+				BD05412109302A6DD4D25942 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,9 +339,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 90E28B151DA5561C006C3C19 /* Build configuration list for PBXNativeTarget "FCIUITests" */;
 			buildPhases = (
+				79C948E677209A76E7121181 /* [CP] Check Pods Manifest.lock */,
 				90E28B021DA5561C006C3C19 /* Sources */,
 				90E28B031DA5561C006C3C19 /* Frameworks */,
 				90E28B041DA5561C006C3C19 /* Resources */,
+				05079DE50F0FA7FDB6C9C669 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -249,6 +408,7 @@
 				90E28AF51DA5561C006C3C19 /* LaunchScreen.storyboard in Resources */,
 				90E28AF21DA5561C006C3C19 /* Assets.xcassets in Resources */,
 				90E28AF01DA5561C006C3C19 /* Main.storyboard in Resources */,
+				9099308C1DA59D3E00D16532 /* HomeImageCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,14 +428,144 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		05079DE50F0FA7FDB6C9C669 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FCIUITests/Pods-FCIUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		057B2A880BC762515D5DEB08 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		79C948E677209A76E7121181 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9388065993002A0856C1708C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FCI/Pods-FCI-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A7AC2E480664B1F1F468C581 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FCITests/Pods-FCITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD05412109302A6DD4D25942 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FCITests/Pods-FCITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CB08A5C51754F6481328EF18 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DF75327B376C6899A4464D69 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FCI/Pods-FCI-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		90E28ADE1DA5561B006C3C19 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				90E28AED1DA5561C006C3C19 /* ViewController.m in Sources */,
+				909930911DA5A41100D16532 /* ImageObject.m in Sources */,
+				907BEE121DA5BE08006AA8F5 /* DetailsViewController.m in Sources */,
+				905E031D1DA55EED00D678C8 /* AnnotationObject.m in Sources */,
+				905E03271DA5670500D678C8 /* CustomGMSMarker.m in Sources */,
+				905E03181DA55A4A00D678C8 /* Communication.m in Sources */,
+				9099308B1DA59D3E00D16532 /* HomeImageCollectionViewCell.m in Sources */,
+				905E03211DA5616100D678C8 /* LogicHelper.m in Sources */,
 				90E28AEA1DA5561C006C3C19 /* AppDelegate.m in Sources */,
 				90E28AE71DA5561C006C3C19 /* main.m in Sources */,
+				90E28B1C1DA55737006C3C19 /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,6 +638,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -396,6 +687,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -422,6 +714,7 @@
 		};
 		90E28B101DA5561C006C3C19 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F7796E90F935A6FE8D70BA6 /* Pods-FCI.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FCI/Info.plist;
@@ -433,6 +726,7 @@
 		};
 		90E28B111DA5561C006C3C19 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E832B6F814C0A0D32382D355 /* Pods-FCI.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FCI/Info.plist;
@@ -444,6 +738,7 @@
 		};
 		90E28B131DA5561C006C3C19 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20BABC9F67C8D43D649DF389 /* Pods-FCITests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = FCITests/Info.plist;
@@ -456,6 +751,7 @@
 		};
 		90E28B141DA5561C006C3C19 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F954E3E616BB582819D2C4D9 /* Pods-FCITests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = FCITests/Info.plist;
@@ -468,6 +764,7 @@
 		};
 		90E28B161DA5561C006C3C19 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73618C1B812EBED92354F75C /* Pods-FCIUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = FCIUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -479,6 +776,7 @@
 		};
 		90E28B171DA5561C006C3C19 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0F27E4C6F5ED8AF515120D0 /* Pods-FCIUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = FCIUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -507,6 +805,7 @@
 				90E28B111DA5561C006C3C19 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		90E28B121DA5561C006C3C19 /* Build configuration list for PBXNativeTarget "FCITests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +814,7 @@
 				90E28B141DA5561C006C3C19 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		90E28B151DA5561C006C3C19 /* Build configuration list for PBXNativeTarget "FCIUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +823,7 @@
 				90E28B171DA5561C006C3C19 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
